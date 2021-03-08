@@ -1,0 +1,51 @@
+header img {
+    width: 250px;
+    height: 60px;
+}
+.main--exchange-container .backgroundImg {
+    width: 400px;
+    height: 400px;
+}
+/*
+EJEMPLO DE COMO ALINEAR DOS TABLAS EN UNA FILA SI LAS TENEMOS EN COLUMA
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+*/
+/*Hacer que las tarjetas pasen a ser de 1 a 2 columnas----------------*/
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+/*Alineacion de las cards de planes-----------------------------------*/
+.plans-container--slider {
+    justify-content: center;
+}
+/*Alineacion de las tablas de monedas-----------------------------------*/
+.main-tables-container {
+    justify-content: center;
+}
+/*Iconos derecha e izquierda de planes--------------------------------*/
+.plans-container--slider .small--right--arrow {
+    width: 0px;
+    height: 0px;
+}
+/*Icono de next derecha*/
+.plans-container--slider .small--left--arrow {
+    width: 0px;
+    height: 0px;
+}
+/*Iconos derecha e izquierda de tablas--------------------------------*/
+.main--exchange-container .small--left--arrow {
+    width: 0px;
+    height: 0px;
+}
+/*Icono de next izquierda*/
+.main--exchange-container .small--right--arrow {
+    width: 0px;
+    height: 0px;
+}

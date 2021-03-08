@@ -1,0 +1,184 @@
+/*SECCIONES ROOT---------------------------------------------*/
+:root {
+    /*Colores*/
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #ffffff;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+/*SECCIONES ROOT----------------------------------------------*/
+
+
+/*MAIN*/
+/*Seccion de cards inicio-------------------------------------*/
+/*Estilos de seccion completa de cards*/
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+/*Titulo*/
+.main-product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+/*Titulo*/
+.main-product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+/*Titulo p*/
+.main-product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+/*Estilos generales de las cards*/
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #2b2623;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+/*Icono de clock en card*/
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('http://drive.google.com/uc?export=view&id=1u0IBzi-gyLX5uMHWNZm3AlNiIrImTJr-');
+    /*
+    Reemplazo de asset local por drive
+    background-image: url('./assets/icons/clock.svg');
+    */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*Icono de eye en card*/
+.product-detail--card .eye {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('http://drive.google.com/uc?export=view&id=1yM0sRy9UwJtQQBQXUM6GxSK6y9ze9-xY');
+    /*
+    Reemplazo de asset local por drive
+    background-image: url('./assets/icons/eye.svg');
+    */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*Icono de dollar en card*/
+.product-detail--card .dollar {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('http://drive.google.com/uc?export=view&id=1kmLtlO5jB9rBJOiPbkzPWgzhQ3c0LQRe');
+    /*
+    Reempazo de asset local por drive
+    background-image: url('./assets/icons/dollar-sign.svg');
+    */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*Icono de check en card*/
+.product-detail--card .check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('http://drive.google.com/uc?export=view&id=1fM9j5C9OCHWb9Nbz6yWmTn3Gj4bJPj5N');
+    /*
+    Reemplazo de asset local por drive
+    background-image: url('./assets/icons/check-circle.svg');
+    */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*Titulos de cards*/
+.product-detail--card .product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product-detail--card .product--card-title a {
+    text-decoration: none;
+    color: var(--just-white);
+}
+/*Cuerpo de cards*/
+.product-detail--card .product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+/*Seccion de cards final-------------------------------------*/
+
+/*Seccion de imagen-------------*/
+/*Imagen de fondo*/
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('http://drive.google.com/uc?export=view&id=1gLFm5AZcEEPE5WQ3FdSjV5V42R0KTrTW');
+    /*
+    Reemplazo de asset local por drive
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*Linea que permite efecto parallax*/
+    background-attachment: fixed;
+    text-align: center;
+}
+/*h2 de la seccion*/
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+/*Seccion de imagen-------------*/
+
